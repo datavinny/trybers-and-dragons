@@ -1,11 +1,8 @@
 abstract class Race {
-  private _name: string;
-  private _dexterity: number;
-
-  public constructor(name: string, dexterity: number) {
-    this._name = name;
-    this._dexterity = dexterity;
-  }
+  public constructor(
+    private _name: string,
+    private _dexterity: number,
+  ) {}
 
   static createdRacesInstances(): void {
     throw new Error('Not implemented');
