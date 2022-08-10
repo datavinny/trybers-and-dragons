@@ -1,6 +1,6 @@
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
-import Fighter from './Fighter';
+import Fighter, { SimpleFighter } from './Fighter';
 import getRandomArbitrary from './utils';
 import Race, { Elf } from './Races';
 
@@ -9,10 +9,8 @@ class Character implements Fighter {
   private _strength: number;
   private _defense: number;
   private _dexterity: number;
-  // private _race: Race;
   private _maxLifePoints: number;
   private _lifePoints: number;
-  // private _archetype: Archetype;
   private _energy: Energy;
 
   constructor(
@@ -27,7 +25,6 @@ class Character implements Fighter {
     // this._race = new Elf(name, this._dexterity);
     this._maxLifePoints = this._race.maxLifePoints / 2;
     this._lifePoints = this._maxLifePoints;
-    // this._archetype = new Mage(name);
     this._energy = {
       type_: this._archetype.energyType,
       amount: getRandomArbitrary(1, 10),
@@ -83,7 +80,7 @@ class Character implements Fighter {
     return this._lifePoints;
   }
 
-  public attack(enemy: Fighter): void {
+  public attack(enemy: SimpleFighter): void {
     enemy.receiveDamage(this._strength);
   }
 
