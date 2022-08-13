@@ -1,8 +1,9 @@
-import Fighter, { SimpleFighter } from "../Fighter";
+import Fighter from "../Fighter";
+import Monster from "../Monster";
 import Battle from "./Battle";
 
 class PVE extends Battle {
-  constructor(private _player: Fighter, private _monsters: SimpleFighter[]) {
+  constructor(private _player: Fighter, private _monsters: Monster[]) {
     super(_player);
   }
 
