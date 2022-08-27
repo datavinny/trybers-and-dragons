@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto Trybers and Dragons!
+# Trybers and Dragons!
 
 # 🐉 Contexto 🐲
 Este projeto foi feito enquanto estudava na @betrybe.
