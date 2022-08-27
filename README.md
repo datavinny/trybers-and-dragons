@@ -3,7 +3,7 @@
 # 🐉 Contexto 🐲
 Este projeto foi feito enquanto estudava na @betrybe.
 
-Nele foi tive que aplicar os princípios da arquitetura `SOLID` e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
+Nele tive que aplicar os princípios da arquitetura `SOLID` e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
 
 No universo de Trybers and Dragons - T&D, quase todos os seres que andam por essas terras pertencem a uma **raça** definida.
 
@@ -24,11 +24,6 @@ Neste projeto, foi testado habilidades de:
 
 - SOLID
 - POO
-
-### 🗓 Data de entrega
-
-- Projeto individual;
-- Foram 2 dias de projeto;
 
 ## Creditos
 - Eu (@datavinny)
